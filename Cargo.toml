@@ -26,10 +26,10 @@ ahash = { version = "0.8.11", default-features = false, features = [
     "std",
 ] }
 document-features = "0.2.10"
-eframe = { git = "https://github.com/torokati44/egui", rev = "bb0031cfbcdad6d51659a99bdedfa4123ce7f430" }
-egui = { git = "https://github.com/torokati44/egui", rev = "bb0031cfbcdad6d51659a99bdedfa4123ce7f430" }
+eframe = { git = "https://github.com/torokati44/egui", rev = "bb0031cfbcdad6d51659a99bdedfa4123ce7f430", default-features = false }
+egui = { git = "https://github.com/torokati44/egui", rev = "bb0031cfbcdad6d51659a99bdedfa4123ce7f430", default-features = false }
 egui_kittest = { git = "https://github.com/torokati44/egui", rev = "bb0031cfbcdad6d51659a99bdedfa4123ce7f430" }
-emath = { git = "https://github.com/torokati44/egui", rev = "bb0031cfbcdad6d51659a99bdedfa4123ce7f430" }
+emath = { git = "https://github.com/torokati44/egui", rev = "bb0031cfbcdad6d51659a99bdedfa4123ce7f430", default-features = false }
 env_logger = { version = "0.11.6", default-features = false, features = [
     "auto-color",
     "humantime",
