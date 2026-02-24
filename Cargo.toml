@@ -6,7 +6,7 @@ members = ["egui_plot", "demo", "examples/*", "examples_utils"]
 [workspace.package]
 edition = "2024"
 license = "MIT OR Apache-2.0"
-rust-version = "1.88"
+rust-version = "1.92"
 version = "0.34.1"
 
 
@@ -47,10 +47,10 @@ ahash = { version = "0.8.12", default-features = false, features = [
 ] }
 assertables = "9.8.2"
 document-features = "0.2.12"
-eframe = { version = "0.33", default-features = false }
-egui = { version = "0.33", default-features = false }
-egui_kittest = { version = "0.33", default-features = false }
-emath = { version = "0.33", default-features = false }
+egui = { git = "https://github.com/aftershootco/egui", branch = "main", default-features = false }
+egui_kittest = { git = "https://github.com/aftershootco/egui", branch = "main", default-features = false }
+eframe = { git = "https://github.com/aftershootco/egui", branch = "main", default-features = false }
+emath = { git = "https://github.com/aftershootco/egui", branch = "main", default-features = false }
 env_logger = { version = "0.11.8", default-features = false, features = [
     "auto-color",
     "humantime",

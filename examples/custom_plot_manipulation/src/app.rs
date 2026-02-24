@@ -37,6 +37,7 @@ impl CustomPlotManipulationExample {
                     unit: _,
                     delta,
                     modifiers: _,
+                    phase: _,
                 } => Some(*delta),
                 _ => None,
             });
