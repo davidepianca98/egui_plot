@@ -10,7 +10,7 @@ Changes since the last release can be found at <https://github.com/emilk/egui_pl
 
 ## 0.34.0 - 2025-10-10
 * Update to egui 0.33.0 [#140](https://github.com/emilk/egui_plot/pull/140) by [@lucasmerlin](https://github.com/lucasmerlin)
-* Update MSRV to 1.88 [#139](https://github.com/emilk/egui_plot/pull/139) by [@lucasmerlin](https://github.com/lucasmerlin)
+* Update MSRV to 1.92 [#139](https://github.com/emilk/egui_plot/pull/139) by [@lucasmerlin](https://github.com/lucasmerlin)
 * Add the ability invert the X and/or Y axis [#125](https://github.com/emilk/egui_plot/pull/125) by [@CattleProdigy](https://github.com/CattleProdigy)
 * Fix offset by 1 when computing gradient fill color [#130](https://github.com/emilk/egui_plot/pull/130) by [@Yohsi](https://github.com/Yohsi)
 
